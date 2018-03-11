@@ -22,10 +22,16 @@ function nowServing (katzDeli){
 var theline = [];
 
 function currentline (katzDeli){
-  if (katzDeli.length === 0){
-    return ("The line is currently empty.")
-  }
-  else for (var i = 0; i < katzDeli.length; i++){
-    theline.push(i+1 +'. ' + katzDeli[i])
-  } return (`The line is currently +${theline}`);
+
+var i = 0;
+
+while (i < katzDeli.length) {
+  theline.push(`'+[i+1]'+'. ` + katzDeli[i])
+  i++;
+}
+
+if (katzDeli.length > 0) {
+  return (`The line is currently:` +line);
+}
+else return ('The line is currently empty.')
 }
