@@ -19,14 +19,14 @@ function nowServing (katzDeli){
 
 }
 
-var theline = [];
+var line = [];
 
 function currentline (katzDeli){
 
 var i = 0;
 
 while (i < katzDeli.length) {
-  theline.push(` `+[i+1]+`. `  + katzDeli[i])
+  line.push(` `+[i+1]+`. `  + katzDeli[i])
   i++;
 }
 
