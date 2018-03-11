@@ -6,5 +6,5 @@ function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name);
   num = katzDeliLine.find(name);
   num++;
-  return katzDeliLine;
+  return '"Welcome," name. You are ';
 }
