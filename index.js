@@ -21,7 +21,7 @@ function nowServing (katzDeli){
 
 var line = [];
 
-function currentline (katzDeli){
+function currentLine (katzDeli){
 
 var i = 0;
 
