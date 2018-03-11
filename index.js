@@ -33,5 +33,5 @@ while (i < katzDeli.length) {
 if (katzDeli.length === 0) {
   return ('The line is currently empty.');
 }
-else return ('The lins is currently: ' + theline);
+else return ('The line is currently: ' + theline);
 }
