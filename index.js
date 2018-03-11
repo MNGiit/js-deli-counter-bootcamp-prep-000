@@ -27,5 +27,5 @@ function currentline (katzDeli){
   }
   else for (var i = 0; i < katzDeli.length; i++){
     theline.push(i+1 +'. ' + katzDeli[i])
-  } return theline;
+  } return (`The line is currently +${theline}`);
 }
